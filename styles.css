@@ -1,0 +1,109 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Helvetica', sans-serif;
+    color: #0d1b2a;
+    font-weight: 300;
+    line-height: 1.5em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: #C0CAD8;
+    padding: 20px;
+}
+
+#main,
+#tribute-info,
+#div-img {
+    padding: 20px;
+}
+
+#tribute-info,
+#link-wrapper,
+#div-img,
+#image,
+#timeline-wrapper {
+    margin: 0 auto;
+}
+
+#title {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#title-caption {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#div-img {
+    background-color: #e0e1dd;
+    width: 100%;
+}
+
+#image {
+    display: block;
+    width: 100%;
+    max-width: 1024px;
+}
+
+#img-caption {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#timeline {
+    list-style: none;
+}
+
+.bullet {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.year {
+    display: block;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+.description {
+    display: block;
+}
+
+#quote-wrapper {
+    margin: 20px auto;
+    font-style: italic;
+}
+
+#quote-author {
+    text-align: right;
+    margin-top: 10px;
+}
+
+
+#timeline-wrapper,
+#quote-wrapper {
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    #timeline-wrapper,
+    #quote-wrapper {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1024px) {
+    #timeline-wrapper,
+    #quote-wrapper {
+        width: 60%;
+    }
+}
+
